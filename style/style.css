@@ -157,6 +157,19 @@ select{
     color: #fff;
 }
 
+.first-row{
+    display: flex; 
+    justify-content: space-between;
+}
+.second-row{
+    display: flex; 
+    justify-content: space-between;
+}
+.third-row{
+    display: flex; 
+    justify-content: space-between;
+}
+
 .div-1{
     background-image: url(../Images/Rectangle\ 5.png);
     background-position: center;
@@ -296,6 +309,11 @@ select{
     background-color: rgba(0, 255, 255, 0.103);
 }
 
+.third-container{
+    display: flex;
+    justify-content: center;
+}
+
 .third{
     background-color: rgba(221, 160, 221, 0.452);
 }
@@ -352,9 +370,65 @@ footer{
     margin: 6px;
 }
 
-
 /* responsive design */
 @media screen and (max-width:576px) {
+    .popular-tour-section{
+        flex-direction: column;
+    }
+    .popular-tour-section article{
+        width: 100%;
+        margin: 20px ;
+    }
+
+    .popular-tour-section div{
+        width: 100%;
+    }
+
+    .first-row{
+        flex-direction: column;
+    }
+    .second-row{
+        flex-direction: column;
+    }
+    .third-row{
+        flex-direction: column;
+    }
+    .div-1{
+        width: 100%;
+    }
+    .div-2{
+        width: 100%;
+    }
+    .div-3{
+        width: 100%;
+    }
+    .div-4{
+        width: 100%;
+    }
+    .div-5{
+        width: 100%;
+    }
+    .div-6{
+        width: 100%;
+    }
+    .div-7{
+        width: 100%;
+    }
+
+    .facilities-container{
+        flex-direction: column;
+    }
+    .facility-box{
+        width: 100%;
+        padding: 40px 30px;
+        margin: 10px 0 0 0;
+        border-radius: 5px;
+    }
+    
+    .third-container{
+        justify-content: flex-start;
+    }
+
     .newsletter{
         margin: 50px 0;
         flex-direction: column;
@@ -366,6 +440,12 @@ footer{
     }
     .newsletter-img{
         width: 100%;
+    }
+
+    footer{
+        padding: 60px 0 20px 0;
+        text-align: center;
+        background-color: rgba(128, 128, 128, 0.26);
     }
     
 }
