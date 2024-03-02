@@ -1,11 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <!-- font awesome kit -->
+    <script src="https://kit.fontawesome.com/bba9061114.js" crossorigin="anonymous"></script>
 </head>
+
+
 <body>
-    hello world
+    <div class="main-width">
+
+    
+    <header>
+        <nav>
+            <a href="#" class="logo">
+                <img src="./Images/Group 40071 (2).png" alt="">
+                <h2>Hero <span class="primary-color">Travel</span></h2>
+            </a>
+
+            <ul class="nav-list">
+                <li><a class="primary-color" href="#">Home</a></li>
+                <li><a href="#">Packages</a></li>
+                <li><a href="#">Testimonial</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="banner-section">
+            <article>
+                <h1>Explore Your Travel</h1>
+                <p>Travel can be done by foot, bicycle, automobile, train, boat, bus, <br> airplane, ship or other
+                    means, with or without luggage, and can be one way or round trip.</p>
+
+                <div style="display: flex; justify-content: center;">
+                    <div class="banner-input-group">
+                        <input class="Where-go" type="text" name="" placeholder="Where go" id="">
+                        <select name="When" id="">
+                            <option value="dhaka">Dhaka</option>
+                            <option value="Barishal">Barishal</option>
+                            <option value="Kuakata">Kuakata</option>
+                            <option value="Rangpur">Rangpur</option>
+                        </select>
+                        <select name="When" id="">
+                            <option value="dhaka">Dhaka</option>
+                            <option value="Barishal">Barishal</option>
+                            <option value="Kuakata">Kuakata</option>
+                            <option value="Rangpur">Rangpur</option>
+                        </select>
+                        <button class="btn-primary">Find Now</button>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </header>
+
+    <main>
+        <section class="popular-tour-section">
+            <article>
+                <h2>Our Popular Tour</h2>
+                <br>
+                <p>Ines Maione brings a wealth of experience from over 25 years as a Marketing Manager Communications in
+                    various industries. The best thing about the job is</p>
+                <br>
+                <ul>
+                    <li>Tempus euismod lacus mauris dignissim quis in ultrices. Magna nullam odio neque diam. Sociis
+                        erat at .</li>
+                    <br>
+                    <li>Tempus euismod lacus mauris dignissim quis in ultrices. Magna nullam odio neque diam. Sociis
+                        erat at .</li>
+                    <br>
+                    <li>Tempus euismod lacus mauris dignissim quis in ultrices. Magna nullam odio neque diam. Sociis
+                        erat at .</li>
+                </ul>
+                <br>
+                <p>Ines Maione brings a wealth of experience from over 25 years as a Marketing Manager Communications in
+                    various industries. The best thing about the job is Communications in various industries. The best
+                </p>
+
+                <br>
+                <button class="btn-primary">Read More</button>
+            </article>
+            <div>
+                <img src="./Images/Rectangle 4.png" alt="">
+            </div>
+        </section>
+
+        <section class="choose-your-destination">
+            <h1 class="heading">Choose Your Destination</h1>
+            <p class="subheading">When you look out the window and see gray skies, and temperatures <br> have been near
+                zero for weeks on end then you know that</p>
+
+
+            <div class="tour-img">
+                <div style="display: flex; justify-content: space-between;">
+                    <div class="div-1">Maldives</div>
+                    <div class="div-2">Indonesia</div>
+                </div>
+
+                <div style="display: flex; justify-content: space-between;">
+                    <div class="div-3">Srilanka</div>
+                    <div class="div-4">North America</div>
+                    <div class="div-5">Kashmir</div>
+                </div>
+                <div style="display: flex; justify-content: space-between;">
+                    <div class="div-6">Bangladesh</div>
+                    <div class="div-7">Bandarbon</div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="why-choose-us">
+            <article>
+                <h2 class="heading">Why Choose Us</h2>
+                <p class="subheading">Travel texts are simply descriptions of destinations that appear in travel-related
+                    media <br> such as magazines, websites, or brochures. They provide information</p>
+            </article>
+            <div class="facilities-container">
+                <div class="facility-box">
+                    <i class="fa-regular fa-house"></i>
+                    <h3>Handpicked Hotel</h3>
+                    <p>Amet consectetur. Vulputate commodo felis molestie risus ornare nulla amet et. Libero commodo
+                        sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. </p>
+                </div>
+                <div class="facility-box second">
+                    <i class="fa-solid fa-map-location-dot"></i>
+                    <h3>Handpicked Hotel</h3>
+                    <p>Amet consectetur. Vulputate commodo felis molestie risus ornare nulla amet et. Libero commodo
+                        sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. </p>
+                </div>
+            </div>
+            <div style="display: flex; justify-content: center;">
+                <div class="facility-box third">
+                    <i class="fa-solid fa-percent"></i>
+                    <h3>Handpicked Hotel</h3>
+                    <p>Amet consectetur. Vulputate commodo felis molestie risus ornare nulla amet et. Libero commodo
+                        sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="newsletter">
+            <div class="newsletter-content">
+                <h2>NewsLetter</h2>
+                <p>get your daily dose of travel news and tips signup today!</p>
+                <hr>
+                <input style="width: 100%;" type="text" placeholder="Enter your name" name="" id="">
+                <input style="width: 100%;" type="email" placeholder="Enter your email" name="" id="">
+                <button style="width: 100%; margin-top: 10px;" class="btn-primary">Subscribe</button>
+            </div>
+            <div class="newsletter-img">
+                <img src="./Images/Rectangle 8 (1).png" alt="">
+                <article
+                    style="background-color: #FF5400;  border: 0; color: #fff; width: 220px; text-align: center; position: absolute; bottom: 50px; right: 30px; transform: rotate(-20deg); border-radius: 5px;">
+                    <span style="font-size: 12px; ">travel.com</span>
+                    <h2 style="font-size: 25px; ">Save up to 70%</h2>
+                </article>
+            </div>
+        </section>
+    </main>
+</div>
+    <footer>
+        <article>
+            <div style="display: flex; justify-content: center;">
+                <a href="#" class="logo">
+                    <img src="./Images/Group 40071 (2).png" alt="">
+                    <h2>Hero <span class="primary-color">Travel</span></h2>
+                </a>
+            </div>
+            <p>Ines Maione brings a wealth of experience from over 25 years as a Marketing <br> Manager Communications in various industries.</p>
+
+            <div style="display: flex; justify-content: center;">
+                <div class="icon-container" style="display: flex;">
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-github"></i>
+                </div>
+            </div>
+
+            <hr style="width: 70%; margin: 20px auto;">
+            <p style="margin: 20px 0;">2017, All Rights Reserved.</p>
+        </article>
+    </footer>
+
 </body>
+
+
 </html>
