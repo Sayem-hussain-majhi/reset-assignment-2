@@ -372,6 +372,24 @@ footer{
 
 /* responsive design */
 @media screen and (max-width:576px) {
+    .banner-section{
+        height: auto;
+        padding: 0 0 25px 0;
+    }
+    .Where-go{
+        width: 100%;
+        margin: 10px 0;
+    }
+    select{
+        width: 100%;
+        margin: 10px 0;
+    }
+    .find-btn{
+        width: 100%;
+        margin: 10px 0;
+    }
+    
+
     .popular-tour-section{
         flex-direction: column;
     }
